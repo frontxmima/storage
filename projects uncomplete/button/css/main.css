@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    height: 100px;
+    width: 200px;
+    border: none;
+    background: #202020;
+    color: aquamarine;
+    font-size: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.button:hover {
+
+}
+
+.container01 {
+    width: 200px;
+    height: 100px;
+    background: red;
+
+}
+
+.container01:hover {
+    transition: translateX(200px);
+    
+}
+
+
